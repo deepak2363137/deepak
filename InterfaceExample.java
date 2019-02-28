@@ -18,7 +18,7 @@ public class InterfaceExample implements studentdetails,result {
 	public void display() {
 		
 		System.out.println("this is sandip");
-		System.out.println("tha value of a is "+a);
+		System.out.println("the value of a is"+a);
 	}
 	public void result() {
 		
