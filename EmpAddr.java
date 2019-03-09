@@ -4,7 +4,7 @@ public class EmpAddr {
 
    private int streetno;
     private String colony,city,state;
-public int getStreetno() {
+   public int getStreetno() {
 	return streetno;
 }
 public void setStreetno(int streetno) {
@@ -31,7 +31,7 @@ public void setState(String state) {
    
 public String toString() {
 	
-	return " [ Streetno " + streetno + " colony " + colony + " city " + city + " state  " + state + "]";
+	return " [  Streetno :=" + streetno  + ", colony:= " + colony + ", city:= " + city + ", state := " + state + "]";
 	
 }
 }

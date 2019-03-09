@@ -17,7 +17,7 @@ public class Employee {
 		bn.setSalary(35000);
 		bn.setEmpdr(ed);
 		
-		System.out.println(bn.getName()+" "+bn.getEmpno()+" "+bn.getSalary()+" "+bn.getEmpdr());
+		System.out.println(bn.getName()+" , "+bn.getEmpno()+" , "+bn.getSalary()+" , "+bn.getEmpdr()); 
 		
 		
 		
